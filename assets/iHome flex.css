@@ -1,0 +1,14 @@
+.header_items{
+    flex-direction: column;
+}
+.header_items li:last-child{
+    order: -1;
+    align-items: center;
+    justify-content: center;
+}
+.statistics_list{
+    justify-content: space-between;
+}.statistics_item{
+    flex-basis: 45%;
+    
+}
