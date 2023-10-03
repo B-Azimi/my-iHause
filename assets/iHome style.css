@@ -332,10 +332,47 @@ main h2 {
     line-height: 24px;
     /* 150% */
 }
-.rent_card-price{
+
+.rent_card-price {
     padding-right: 12px;
 }
-.rent_card-price div{
+
+.rent_card-price div {
     margin: 0;
     padding: 0;
+    margin-bottom: 33px;
+}
+
+footer {
+    margin-top: 96px;
+    display: flex;
+    width: 360px;
+    padding: 64px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px 4px 0px 0px;
+    background: var(--primary-color);
+}
+
+footer span {
+    color: var(--gray-white);
+    text-align: right;
+
+    /* Body/ Base text */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+footer a {
+    color: var(--gray-white);
+    /* Body/Strong */
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    
 }
