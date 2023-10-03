@@ -199,6 +199,7 @@ main h2 {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    text-transform: uppercase;
 }
 
 .sale_card-body {
@@ -261,8 +262,8 @@ main h2 {
     border-radius: 4px;
     background: #343A40;
     text-decoration: none;
-    margin-right: 19px;
-    
+    margin-left: 81px;
+
 
 }
 
@@ -282,4 +283,59 @@ main h2 {
     /* 150% */
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.rent_card-wrapper {
+    width: 100%;
+    text-align: left;
+}
+
+.rent_list li {
+    display: none;
+}
+
+.rent_list li:nth-child(4) {
+    display: unset;
+}
+
+.rent_card-image {
+    width: 100%;
+}
+
+.rent_card-body {
+    padding: 0 13px 0 23px;
+}
+
+.rent_card-body div:first-child {
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+.rent_card-title {
+    max-width: 300px;
+    overflow: hidden;
+    color: var(--heading-title-color, #152536);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* Semi-Bold / H3 Heading */
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.rent_card-description {
+    color: var(--Body_Text_Base-Color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+.rent_card-price{
+    padding-right: 12px;
+}
+.rent_card-price div{
+    margin: 0;
+    padding: 0;
 }

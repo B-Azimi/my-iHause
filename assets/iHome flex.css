@@ -36,10 +36,19 @@
     flex-direction: column;
     align-items: flex-start;
 }
-.card-price{
+.sale_card-price{
     flex-direction: column;
     align-items: flex-start;
 }
 .card-price-link{
-    align-self: flex-end;
+    /* align-self: flex-end; */
+}
+.rent_card{
+    flex-direction: column;
+}
+.rent_card-price{
+   
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: space-between;
 }
