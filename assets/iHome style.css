@@ -24,7 +24,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 833px;
+    max-width: 768px;
     margin: auto;
     padding: 0 12px;
     text-align: center;
@@ -40,7 +40,7 @@ body {
     padding: 0 12px;
 }
 
-.header_items li:last-child {
+.header_items> li:last-child {
     background-color: var(--primary-color);
     box-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.16);
     width: 100%;
@@ -85,8 +85,21 @@ body {
     /* 175% */
 }
 
-.header_item a {
+.header_item>a {
     display: none;
+    color: var(--gray-white);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 150% */
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    background: var(--primary-color, #0D6EFD);
+
 }
 
 .statistics_list {
@@ -374,5 +387,72 @@ footer a {
     font-style: normal;
     font-weight: 700;
     line-height: 32px;
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 100%;
+        max-width: 1028px;
+        margin: auto;
+        padding: 0 69px;
+        text-align: center;
+    }
+
+    /* .header_item {
+        
+        padding: 0 23px;
+    } */
+    .header_items>li:first-child {
+        padding: 0 92px;
+    }
+
+    .header_items>li:nth-child(2) {
+        padding: 0 92px;
+    }
+
+    .header_items>li:nth-child(4) {
+        padding: 0 92px;
+    }
+
+    .header_items> li:last-child {
+        margin-bottom: 64px;
+    }
+
+    .header_items h1 {
+        margin: 64px 0 24px 0;
+        font-size: 72px;
+        letter-spacing: unset;
+    }
+
+    .site_description {
+        margin: 24px 0 24px 0;
+    }
+
+    .header_item> a {
+        display: unset;
+        position: absolute;
+        top: 1015px;
+        left: 332px;
+        /* right: 332px; */
+    }
+
+    .statistics_list {
+        width: 100%;
+        margin-top: 24px;
+        margin-bottom: 14px;
+
+    }
     
+    .statistics_list li:last-child {
+        display: unset;
+    }
+    .statistics_description {
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 36px;
+    }
+    
+
+
+
 }

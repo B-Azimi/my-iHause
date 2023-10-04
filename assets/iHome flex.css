@@ -2,7 +2,7 @@
     flex-direction: column;
 }
 
-.header_items li:last-child {
+.header_items> li:last-child {
     order: -1;
     align-items: center;
     justify-content: center;
@@ -51,4 +51,12 @@
     flex-wrap: nowrap;
     align-items: baseline;
     justify-content: space-between;
+}
+
+@media (min-width:768px) {
+   
+    .statistics_item {
+        flex-basis: 32%;
+    
+    }
 }
