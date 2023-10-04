@@ -59,4 +59,15 @@
         flex-basis: 32%;
     
     }
+
+    .sale_list{
+        flex-direction: column;
+    }
+    .sale_card-price{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+        justify-self: flex-end;
+    }
 }

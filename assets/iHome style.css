@@ -88,6 +88,18 @@ body {
 
 .get_start {
     display: none;
+    color: var(--gray-white);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 150% */
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    background: var(--primary-color);
 }
 
 .header_item>a {
@@ -251,10 +263,10 @@ main h2 {
 
 }
 
-.card-price {
+.sale_card-price {
     width: 100%;
     height: 103px;
-    margin-top: 18px;
+
 }
 
 .card-price-amount {
@@ -266,6 +278,7 @@ main h2 {
     line-height: 36px;
     /* 171.429% */
     margin-bottom: 20px;
+    margin-top: 18px;
 
 }
 
@@ -462,32 +475,84 @@ footer a {
 
     .get_start {
         display: unset;
-        color: var(--gray-white);
-        text-align: center;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 30px;
-        /* 150% */
-        text-transform: uppercase;
-        text-decoration: none;
-        padding: 10px 16px;
-        border-radius: 4px;
-        background: var(--primary-color);
+ 
         margin-left: 39.83%;
     }
+
     /* .header_item img{
         margin-bottom: 18.72%;
 
     } */
-    .header_items{
+    .header_items {
         margin-bottom: -18.72%;
     }
-
-    main h2:first-child{
-        margin-top: 215px;
+    main h2{
+        margin: 0;    
+        font-size: 32px;
+    }
+    .sale_title{
+        margin: 247px 0 11px 0;
     }
 
+    .sale_list li {
+        display: unset;
+        margin-top: 24px;
+    }
+    .rent_title{
+        margin: 96px 0 47px 0;
+    }
+    .sale_card-image img{
+        height: 265px;
+    }
 
+    
+.card_tag {
+    margin: 0;
+    margin-top: 27px;
+    align-self: flex-start;
+}
+
+.sale_card-body {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    margin-left: 28.5px;
+}
+
+.sale_card-title {
+    height: 52px;
+    margin-top: 10px;
+    margin-right: 34.5px;
+    padding-right: 10px;
+
+}
+
+.sale_card-description {
+    height: 60px;
+    margin-top: 11px;
+    margin-right: 31.5px;
+    padding-right: 20px;
+    margin-bottom: 23px;
+
+}
+
+.sale_card-price {
+    height: auto;
+    padding-right: 45px;
+    margin-bottom: 22px;
+
+}
+
+.card-price-amount {
+    margin: 0;
+}
+
+.card-price-link a {
+    margin: 0;
+}
+
+.load_link {
+    display: none;
+}
 
 }
