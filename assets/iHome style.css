@@ -24,7 +24,8 @@ body {
 
 .container {
     width: 100%;
-    max-width: 768px;
+    min-width: 360px;
+    max-width: 767px;
     margin: auto;
     padding: 0 12px;
     text-align: center;
@@ -40,7 +41,7 @@ body {
     padding: 0 12px;
 }
 
-.header_items> li:last-child {
+.header_items>li:last-child {
     background-color: var(--primary-color);
     box-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.16);
     width: 100%;
@@ -85,6 +86,10 @@ body {
     /* 175% */
 }
 
+.get_start {
+    display: none;
+}
+
 .header_item>a {
     display: none;
     color: var(--gray-white);
@@ -98,7 +103,7 @@ body {
     text-decoration: none;
     padding: 10px 16px;
     border-radius: 4px;
-    background: var(--primary-color, #0D6EFD);
+    background: var(--primary-color);
 
 }
 
@@ -392,6 +397,7 @@ footer a {
 @media (min-width:768px) {
     .container {
         width: 100%;
+        min-width: 768px;
         max-width: 1028px;
         margin: auto;
         padding: 0 69px;
@@ -414,7 +420,8 @@ footer a {
         padding: 0 92px;
     }
 
-    .header_items> li:last-child {
+
+    .header_items>li:last-child {
         margin-bottom: 64px;
     }
 
@@ -428,13 +435,13 @@ footer a {
         margin: 24px 0 24px 0;
     }
 
-    .header_item> a {
+    /* .header_item>a {
         display: unset;
         position: absolute;
         top: 1015px;
         left: 332px;
-        /* right: 332px; */
-    }
+      
+    } */
 
     .statistics_list {
         width: 100%;
@@ -442,16 +449,44 @@ footer a {
         margin-bottom: 14px;
 
     }
-    
+
     .statistics_list li:last-child {
         display: unset;
     }
+
     .statistics_description {
         font-size: 21px;
         font-weight: 400;
         line-height: 36px;
     }
-    
+
+    .get_start {
+        display: unset;
+        color: var(--gray-white);
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        /* 150% */
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 10px 16px;
+        border-radius: 4px;
+        background: var(--primary-color);
+        margin-left: 39.83%;
+    }
+    /* .header_item img{
+        margin-bottom: 18.72%;
+
+    } */
+    .header_items{
+        margin-bottom: -18.72%;
+    }
+
+    main h2:first-child{
+        margin-top: 215px;
+    }
 
 
 
