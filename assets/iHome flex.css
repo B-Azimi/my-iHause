@@ -90,3 +90,49 @@
 
 
 }
+
+@media (min-width:1028px) {
+    .header_items>li:last-child {
+        order: unset;
+
+    }
+
+    .header_items {
+        gap: 32px;
+    }
+
+    .sticky_nav {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav_list {
+        gap: 24px;
+    }
+
+    .sale_list {
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .sale_card-wrapper {
+        flex-basis: 47.92%;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+
+
+    .rent_list {
+        justify-content: flex-start;
+        gap: 24px;
+
+    }
+
+    .rent_list li {
+        flex-grow: 1;
+        flex-shrink: 1;
+        width: 31%;
+
+    }
+}
